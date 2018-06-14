@@ -1,1 +1,4 @@
 # SpringCloud
+1.microservicecloud-eureka_7001 -microservicecloud-eureka_7003 使用的是eureka集群模式
+2.microservicecloud-provider-dept_8001 - microservicecloud-provider-dept_8003集群模式
+3.microservicecloup-consumer-dept_80 使用restTelment访问provider,用过http方式 用loadBanlanced做负载均衡(ribbon)

@@ -97,6 +97,12 @@
 		<module>microservicecloud-eureka_7003</module>
 		<module>microservicecloud-provider-dept_8002</module>
 		<module>microservicecloud-provider-dept_8003</module>
+		<module>microservicecloup-consumer-dept_80-feign</module>
+		<module>microservicecloup-consumer-dept-feign</module>
+		<module>microservicecloud-provider-dept-hystrix-8001</module>
+		<module>microservicecloud-consumer-hystrix-dashboard</module>
+		<module>microservicecloud-consumer-gateway-9527</module>
+		<module>microservicecloud-config-3344</module>
 	</modules>
 </project>
 

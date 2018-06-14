@@ -9,7 +9,12 @@ import cn.test.myrule.MySelfRule;
 
 @SpringBootApplication
 @EnableEurekaClient
-//MySelfRule类不可以在@CompoentScan注解包和自包中
+/**
+ * MySelfRule类不可以在@CompoentScan注解包和自包中
+ * 不使用自定义的算法
+ * @author Administrator
+ *
+ */
 @RibbonClient(name="MICROSERVICECLOUD-DEPT" ,configuration=MySelfRule.class)
 public class Run {
 
